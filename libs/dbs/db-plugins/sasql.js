@@ -15,7 +15,7 @@ class Sasql{
     this.conf = {
       UID: conf.user,
       PWD: conf.password,
-      Host: conf.host + ':' + conf.port,
+      Host: conf.host,
 //      database: conf.database,
       server: conf.instance,
       // pool options
